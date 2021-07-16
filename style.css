@@ -7,7 +7,7 @@ body{
 .header{
     width: 1356px;
     height: 550px;
-    background-color: blue;
+    background-color: blueviolet;
    
     
 }
@@ -173,7 +173,7 @@ transform: 0.5s;
 
 /*============Other part of body end =============*/
 
-/*=======Bonus part start============*/
+/*=======Extra part start============*/
 
 .bonus-article{
     display: flex;
@@ -182,28 +182,38 @@ transform: 0.5s;
     color: red;
 }
 .live-chennel{
-    width: 1000px;
+    width: 1356px;
     height: 450px;
     margin-left: 430px;
     margin-top: 90px;
     margin-bottom: 90px;
 }
-
+/*=======Extra part end ============*/
 
 /*========== =Footer area start========= */
+.footer-area{
+    width: 1356px;
+    height: 190px;
+    background-color: blueviolet;
+    margin-left: 278px;
+    margin-bottom: 30px;
+      
+}
+
 .footer{
     width: 485px;
     height: 213px;
     align-items: center;
-    margin-left: 700px;
-    margin-top: 250px;
-    margin-bottom: 150px;
+    margin-left: 510px;
+    margin-top: 350px;
+    
 
 }
     
 .fianl-logo{
     width: 485px;
     height: 115px;
+    
     
 }
 .footer img{
@@ -218,6 +228,7 @@ transform: 0.5s;
 }
 .copyright-icon{
     margin-left: 90px;
+    color: white;
 }
 /*==============Footer area end===============*/
 
@@ -227,12 +238,18 @@ transform: 0.5s;
 /*============Media Query area start==========*/
 
 /*===========Mobile devices======*/
-@media only screen and (max-width: 688px) {
-    .container{
-        width: 100%;
+@media only screen and (max-width: 450px){
+  .header{
+      background-color: aqua;
+      height: 900px;
+      text-align: center;
+
+
+  }
+    .photo-frame{
+        grid-template-columns: repeat(3, 1fr);
     }
-    .photo-album,.photo-frame {background: green;}
-    grid-template-columns: repeat(1, 1fr);
+    
   
    
     .article,.photo-frame{
